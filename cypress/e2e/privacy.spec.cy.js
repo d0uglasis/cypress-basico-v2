@@ -8,5 +8,5 @@ it('testa a página da política de privacidade de forma independente', function
       .should('be.visible')
 
     cy.get('#white-background')
-      .should('contain','Talking About Testing')
+      .should('contain','Talking About Testing')///
   });
